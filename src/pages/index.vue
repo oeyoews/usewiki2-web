@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import VConsole from 'vconsole';
-
-new VConsole();
 defineOptions({
   name: 'IndexPage',
 })
@@ -14,7 +11,8 @@ async function go() {
       'Content-Type': 'application/json',
     }
   })
-  console.log(res.json())
+  const data = await res.json()
+  alert(data.username)
 }
 
 const { t } = useI18n()
