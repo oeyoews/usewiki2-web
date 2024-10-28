@@ -222,3 +222,6 @@ So I made this starter template for myself to create apps more easily, along wit
 如果没有连接，支持暂时存储，等到下次连接时自动发送， 做成pwa 添加service worker
 - [ ] usewiki2-web 项目
 > 需要开启host，为了安全建议需要开启密码验证
+
+* cors
+* https
