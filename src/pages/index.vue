@@ -5,7 +5,7 @@ defineOptions({
 const name = ref('192.168.2.71')
 
 async function go() {
-	const url2 = `http://${name}:8000/status`
+	const url2 = `http://${name.value}:8000/status`
   const res = await fetch(url2, {
     headers: {
       'Content-Type': 'application/json',
